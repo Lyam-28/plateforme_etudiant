@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.menu {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.btn-ajout {
+    padding: 5px 12px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Boutons modifier et supprimer */
+.btn-modifier {
+    background-color: #3498db;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.btn-supprimer {
+    background-color: #e74c3c;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-modifier:hover {
+    background-color: #2980b9;
+}
+
+.btn-supprimer:hover {
+    background-color: #c0392b;
+}
