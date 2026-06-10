@@ -1,9 +1,6 @@
 <?php
 
 /** @var array $etudiants */
-
-
-// Le controller nous envoie $etudiants, nous on affiche juste le HTML
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -16,7 +13,6 @@
 
 <body>
 
-    <!-- menu -->
     <div class="navbar">
         <a href="index.php" class="brand">Plateforme Étudiants</a>
         <nav>
@@ -47,7 +43,6 @@
             </thead>
             <tbody>
                 <?php $i = 1;
-                // on boucle sur chaque étudiant reçu du controller
                 foreach ($etudiants as $e) : ?>
                     <tr>
                         <td><?= $i++ ?></td>
